@@ -1,0 +1,187 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: auto;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(images/homepage.jpg);
+    background-position: left;
+    font-family: Helvetica,Arial,sans-serif;;
+}
+
+img{
+    width: 150px;
+    margin:30px 0 0 70px;
+}
+
+.form{
+    background-color: rgba(1, 1, 1, 0.7);
+    height: 650px;
+    width:450px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+h1{
+    color:white;
+    font-size: 2.5rem;
+    margin:50px 0 0 70px;
+    padding: 40px 0;
+}
+form{
+    margin-left: 70px;
+}
+
+input[type=text], [type=password]{
+    width:80%;
+    margin-bottom: 15px;
+    padding:13px;
+    background-color: rgba(50, 50, 50, 0.7);
+    font-size: 1rem;
+    color:#ccc;
+    border:none;
+    border-radius: 5px;
+}
+
+input[type=button]{
+    width:80%;
+    padding:13px;
+    font-size: 1rem;
+    color:#ccc;
+    background-color: #e50914;
+    border:none;
+    border-radius: 5px;
+    margin:25px 0;
+}
+
+input[type=checkbox]{
+  width:16px;
+  color:black;
+}
+
+label{
+    color: #808080}
+
+.check{
+    margin-left: 110px;
+    text-decoration: none;
+    color:#808080;
+}
+
+.learn{
+    margin-left: 15%;
+}
+
+.check:hover{
+    text-decoration: underline;
+}
+
+h3{
+    color:#808080;
+    font-weight: 100;
+    margin: 55px 0 0 70px;
+    padding-top: 30px;
+}
+
+h3 a{
+    text-decoration: none;
+    color:  #ccc;
+}
+
+h3 a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 14px;
+    line-height: 1rem;
+    color:#808080;
+    margin: 15px 0 0 70px;
+}
+
+p a{
+    text-decoration: none;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    width: 100%;
+    height:25vh;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+hr{
+    border-color: #808080;
+    visibility: hidden;
+}
+
+footer a{
+    color: #808080;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+
+.link{
+    margin-left:120px;
+    padding-bottom: 10%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+@media only screen and (max-width:500px){
+    body{
+        background-image: none;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    img{
+        margin-left: 20px;
+    }
+
+    .form{
+        width:125%;
+        margin-top: -10%;
+        margin-left: -10%;
+    }
+
+    label, .check{
+        font-size: 14px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+    .check{
+        margin-left: 45%;
+    }
+
+    .learn{
+        margin-left: 12%;
+    }
+
+    footer{
+        margin-top: -100px;
+        display: block;
+        height:35vh;
+    }
+
+    hr{
+        visibility: visible;
+    }
+}
